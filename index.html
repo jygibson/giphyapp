@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>The Real Gif-Wives of the Internet</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Chicle" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -12,27 +14,37 @@
 </head>
 
 <body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+        <h1>Real Housewives Making Real Good Gifs.</h1></div>
+        </div>
+        <br>
+        <!-- Create submit field for users -->
+        <div class="row">
+            <div class="col-7">
+        <div id="buttons"></div>
+            </div>
+<div class="col-5">
+        <form id="topics">
+            <label for="topics">Click a button to the left to see some gifs, or add your favorite Real Housewife
+                below!!!
+                Click on the gif itself to un-pause and the wives in action. <em>(try:
+                    Vikki Gunvalson, Bethenny Frankel, or Teresa Guidice)</em></label>
+            <input type="text" id="wife-input"><br>
 
-    <h1>Real Housewives Making Real Good Gifs.</h1>
-    <!-- Create submit field for users -->
-    <div id="buttons">
-        <h3>Click the button to see some gifs!</h3>
+            <!-- //submit button for new animals -->
+            <input id="add-housewife" type="submit" value="Click to Add A Housewife!">
+        </form>
+        <br>
+                <!-- gifs will get put here -->
+        <div id="housewives-view"></div>
     </div>
-    <form id="topics">
-        <label for="topics">Click a button to the left to see some gifs, or add your favorite Real Housewife below!!! Click on the gif itself to un-pause and the wives in action. <em>(try:
-                Vikki Gunvalson, Bethenny Frankel, or Teresa Guidice)</em></label>
-        <input type="text" id="wife-input"><br>
 
-        <!-- //submit button for new animals -->
-        <input id="add-housewife" type="submit" value="Click to Add A Housewife!">
-    </form>
-
-
-    <!-- animals will get put here -->
-
-    <div id="housewives-view"></div>
-    <footer id="andy-image"><img src="images/andycohen.png"> </footer>
-
+<
+        <!-- <div id="housewives-view"></div> -->
+        <footer id="andy-image"><img src="images/andycohen.png"> </footer>
+    </div>
     <script src="javascript/app.js"></script>
 </body>
 

@@ -2,13 +2,15 @@ body {
 background-color: lightskyblue;
 }
 
+.container {
+    width: 100%;
+}
+
 #housewives-view {
-    float: right;
+    width: 30%;
     -webkit-flex-wrap: wrap;
     display: flex;
     flex-wrap: wrap;
-    width: 30%;
-    overflow: auto;
 }
 
 #andy-image{
@@ -18,10 +20,7 @@ background-color: lightskyblue;
 }
 
 #buttons {
-    float: left;
-    width: 50%;
-    height: 100px;
-    padding: 5px;
+    padding: 1px;
     -webkit-flex-wrap: wrap;
     display: flex;
     flex-wrap: wrap;
@@ -38,11 +37,11 @@ h1 {
 
 #topics{
     font-family: 'Chicle', cursive;
-    font-size: 22px; 
+    font-size: 18px; 
 }
 
 em{
-    font-size:18px;
+    font-size:14px;
 }
 
 p {

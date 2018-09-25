@@ -1,7 +1,7 @@
 $(document).ready(function () {
     console.log("testing");
 
-    var topics = ["Bravo TV", "Real Housewives", "Real Housewives of Atlanta", "Real Housewives of New York", "Real Houseswive of Orange County", "Real Housewives of New Jersey", "Tamra Judge", "Shannon Beador", "Kim Zolciak", "Carole Radziwill", "Ramona Singer", "Meghan King Edmonds"];
+    var topics = ["Bravo TV", "Real Housewives", "Real Housewives of Atlanta", "Real Housewives of New York", "Real Housewives of Orange County", "Real Housewives of New Jersey", "Tamra Judge", "Shannon Beador", "Kim Zolciak", "Carole Radziwill", "Ramona Singer", "Meghan King Edmonds"];
 
 
     $(document).on("click", ".bravo", function () {
