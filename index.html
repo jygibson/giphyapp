@@ -3,8 +3,9 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>The Real Gif-Wives of the Internet</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Chicle" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
@@ -12,18 +13,25 @@
 
 <body>
 
+    <h1>Real Housewives Making Real Good Gifs.</h1>
     <!-- Create submit field for users -->
-    <div id="buttons"></div>
+    <div id="buttons">
+        <h3>Click the button to see some gifs!</h3>
+    </div>
     <form id="topics">
-        <label for="topics">Add Awwww-some Animals!</label>
-        <input type="text" id="animal-input"><br>
+        <label for="topics">Click a button to the left to see some gifs, or add your favorite Real Housewife below!!!<em>(try:
+                Vikki Gunvalson, Bethenny Frankel, or Teresa Guidice)</em></label>
+        <input type="text" id="wife-input"><br>
 
         <!-- //submit button for new animals -->
-        <input id="add-animal" type="submit" value="awwww-some animal">
+        <input id="add-housewife" type="submit" value="Click to Add A Housewife!">
     </form>
 
+
     <!-- animals will get put here -->
-    <div id="animals-view"></div>
+
+    <div id="housewives-view"></div>
+    <footer id="andy-image"><img src="images/andycohen.png"> </footer>
 
     <script src="javascript/app.js"></script>
 </body>

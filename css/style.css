@@ -1,0 +1,52 @@
+body {
+background-color: lightskyblue;
+}
+
+#housewives-view {
+    float: right;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    overflow: auto;
+}
+
+#andy-image{
+    position:fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+#buttons {
+    float: left;
+    width: 50%;
+    height: 100px;
+    padding: 5px;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bravo {
+    margin: 1px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Chicle', cursive;
+}
+
+#topics{
+    font-family: 'Chicle', cursive;
+    font-size: 22px; 
+}
+
+em{
+    font-size:18px;
+}
+
+p {
+    font-family: 'Chicle', cursive;
+    font-size:18px; 
+    color: darkorchid;
+}
