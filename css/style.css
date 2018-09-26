@@ -49,3 +49,17 @@ p {
     font-size:18px; 
     color: darkorchid;
 }
+
+/*media query*/
+
+@media screen and (max-width:768px) {
+    #andy-image {
+        display: none;
+    }
+}
+
+@media screen and (max-width:640px) {
+    #andy-image {
+        display: none;
+    }
+}
